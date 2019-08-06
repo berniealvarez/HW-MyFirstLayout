@@ -1,29 +1,35 @@
 .header {
-    background: url("#");
+    background-image: url("../image/pink.jpg");
     background-size: cover;
-    color: white;
     text-align: center;
 }
 a {
     color: white;
 }
 h1 {
-    font-size: 70px;
+    font-size: 50px;
+    padding: 10px;
 }
-ul {
+.links {
     padding: 10px;
     background: rgba(0,0,0,0.5);
 }
-li {
+.links li {
     display: inline;
     padding: 20px;
 }
+.facts {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
 img {
-    border: 7px solid white;
-    border-radius: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
     margin-top: 40px;
+    width: 17%;
 }
 .container {
+    text-align: center;
     width: 600px;
     margin: auto;
 }
