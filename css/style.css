@@ -1,0 +1,29 @@
+.header {
+    background: url("#");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+a {
+    color: white;
+}
+h1 {
+    font-size: 70px;
+}
+ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+img {
+    border: 7px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
